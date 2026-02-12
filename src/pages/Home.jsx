@@ -215,7 +215,7 @@ const Home = () => {
                 <MemberCard
                   name="Nikhil"
                   role="MERN Developer"
-                  // img="/nikhil.jpg"
+                  img="/Nikhil_image.png"
                   link="/nikhil"
                 />
                 <MemberCard
@@ -234,20 +234,20 @@ const Home = () => {
                   name="Jiya Agrawal"
                   role="UI/UX Designer"
                   img="/jiya.jpeg"
-                  link="/jiya"
+                  link="https://portfolio-devsource-jiya.vercel.app/"
                 />
 
                 <MemberCard
                   name="Vinit Tiwari"
                   role="MERN Developer"
-                  // img="/vinit.jpg"
+                  img="/vinit.jpeg"
                   link="/vinit"
                 />
               
                 <MemberCard
                   name="Himanshu Singh"
                   role="MERN Developer"
-                  // img="/himanshu.jpg"
+                  img="/himanshu.jpeg"
                   link="https://portfolio-gules-two-28.vercel.app/"
                 />
               </div>
