@@ -106,7 +106,7 @@
 
 /* CONTENT */
 .content-section {
-  margin-top: -120vh; /* FIXED GAP */
+  margin-top: -120vh; 
   padding: 160px 20px 120px;
   position: relative;
   z-index: 2;

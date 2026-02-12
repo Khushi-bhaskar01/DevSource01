@@ -211,27 +211,25 @@ const Home = () => {
               <h3 className="team-heading ds-heading">Team Members</h3>
             
               <div className="members-grid">
-               <MemberCard
-                 name="Atharv Handa"
-                 role="MERN Developer"
-                 img="/atharv.jpeg"
-                 link="/atharv"
-               />
-
-               <MemberCard
-                 name="Mohd. Sami"
-                 role="Game Developer & Frontend Developer"
-                //  img="/sami.jpg"
-                 link="https://samicode.netlify.app/"
-               />
-
+               
                 <MemberCard
                   name="Nikhil"
                   role="MERN Developer"
                   // img="/nikhil.jpg"
                   link="/nikhil"
                 />
-
+                <MemberCard
+                 name="Atharv Handa"
+                 role="MERN Developer"
+                 img="/atharv.jpeg"
+                 link="/atharv"
+               />
+                <MemberCard
+                 name="Mohd. Sami"
+                 role="Game Developer & Frontend Developer"
+                //  img="/sami.jpg"
+                 link="https://samicode.netlify.app/"
+               />
                 <MemberCard
                   name="Jiya Agrawal"
                   role="UI/UX Designer"
