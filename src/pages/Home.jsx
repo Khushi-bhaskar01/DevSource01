@@ -182,7 +182,7 @@ const Home = () => {
 
             <p className="content-text reveal-text">
               DevSource is a developer-driven community focused on building real-world projects that solve practical problems.
-              We believe learning happens best through hands-on experience, collaboration, and consistent execution.
+              We believe   learning happens best through hands-on experience, collaboration, and consistent execution.
               By working on industry-level projects, our members gain technical expertise, problem-solving skills, and strong portfolios that reflect real development experience.
               At DevSource, the journey matters just as much as the result.
             </p>
