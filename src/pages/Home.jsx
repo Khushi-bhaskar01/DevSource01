@@ -5,7 +5,7 @@ import { gsap } from "gsap";
 import MemberCard from "../components/MemberCard";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import LeaderCard from "../components/LeaderCard";
-
+import DevSourceContact from "../components/DevSourceContact";
 gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
@@ -221,13 +221,13 @@ const Home = () => {
                 <MemberCard
                  name="Atharv Handa"
                  role="MERN Developer"
-                 img="/atharv.jpeg"
+                 img="/atharvv.jpeg"
                  link="/atharv"
                />
                 <MemberCard
                  name="Mohd. Sami"
                  role="Game Developer & Frontend Developer"
-                //  img="/sami.jpg"
+                 img="/samii.jpeg"
                  link="https://samicode.netlify.app/"
                />
                 <MemberCard
@@ -256,6 +256,7 @@ const Home = () => {
           </section>
         </div>
       </div>
+      <DevSourceContact />
     </div>
   );
 };

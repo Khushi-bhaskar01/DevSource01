@@ -1,0 +1,134 @@
+/* ================= CONTACT FUTURE SECTION ================= */
+
+.ds-contact-wrapper {
+  margin-top: 160px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  padding: 120px 20px;
+}
+
+.ds-contact-heading {
+  font-size: clamp(2.4rem, 4vw, 3.5rem);
+  margin-bottom: 60px;
+}
+
+/* ORB CARD */
+/* ORB CARD */
+.ds-orb-card {
+  position: relative;
+  max-width: 520px;
+  margin: auto;
+  padding: 60px 40px;
+  border-radius: 30px;
+
+  background: radial-gradient(
+      circle at 30% 20%,
+      rgba(255, 107, 0, 0.10),   /* reduced */
+      transparent 65%
+    ),
+    linear-gradient(
+      160deg,
+      rgba(255, 255, 255, 0.04), /* reduced */
+      rgba(255, 107, 0, 0.06)
+    );
+
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 107, 0, 0.15); /* reduced */
+
+  transition: all 0.4s ease;
+}
+
+/* subtle floating effect */
+.ds-orb-card:hover {
+  transform: translateY(-6px) scale(1.015); /* reduced movement */
+  box-shadow:
+    0 20px 40px rgba(255, 107, 0, 0.15),   /* softer */
+    0 0 25px rgba(255, 61, 129, 0.15);
+}
+
+/* glowing edge softer */
+.ds-orb-card::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #ff6b00, #ff3d81, #7cf7ff);
+  opacity: 0.08;       /* much softer */
+  filter: blur(25px);  /* smoother spread */
+  z-index: -1;
+}
+
+
+.ds-orb-text {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* LINKS */
+.ds-orb-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.ds-orb-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  width: 220px;              /* fixed premium width */
+  padding: 16px 0;           /* vertical padding only */
+  border-radius: 999px;
+
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+
+  color: white;
+  background: linear-gradient(135deg, #ff6b00, #ff3d81);
+
+  transition: all 0.3s ease;
+}
+
+
+/* hover = energy pulse */
+.ds-orb-btn:hover {
+  transform: scale(1.04);
+  box-shadow:
+    0 0 20px rgba(255, 107, 0, 0.35),
+    0 0 30px rgba(255, 61, 129, 0.30);
+}
+
+
+.ds-icon {
+  font-size: 1.05rem;
+  transition: transform 0.3s ease;
+}
+
+.ds-orb-btn:hover .ds-icon {
+  transform: translateY(-3px) scale(1.1);
+}
+.ds-orb-links {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+@media (max-width: 768px) {
+  .ds-orb-card {
+    padding: 50px 25px;
+  }
+
+  .ds-contact-heading {
+    margin-bottom: 50px;
+  }
+
+  .ds-orb-text {
+    font-size: 1rem;
+  }
+}
