@@ -31,7 +31,7 @@ const DevSourceContact = () => {
             <span>GitHub</span>
           </a>
 
-          <a
+          {/* <a
             href="https://linkedin.com/company/your-linkedin"
             target="_blank"
             rel="noopener noreferrer"
@@ -39,7 +39,7 @@ const DevSourceContact = () => {
           >
             <FaLinkedinIn className="ds-icon" />
             <span>LinkedIn</span>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
